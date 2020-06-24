@@ -13,6 +13,9 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
+    "start": "node server.js",
+    "server:dev": "nodemon server.js",
+    "seeds": "mongo < ./db/seeds.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
